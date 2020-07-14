@@ -1,0 +1,528 @@
+@import url("nav.css");
+
+body
+{
+	background: #4D1300 url(../images/bkgd.gif) repeat-x;
+	margin: 0;
+	padding: 0;
+}
+
+body,
+p,
+td,
+li
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4F1503;
+}
+
+
+a { color: #9B1D21; }
+a:hover { color: #9B1D21; text-decoration: none; }
+
+blockquote { margin: 0 0 1em 0; }
+
+p
+{
+	margin: 0 0 1em 0;
+	line-height: 1.5em;
+}
+
+h1,
+h2,
+h3
+{
+	font-weight: normal;
+	margin: 0 0 0.75em 0;
+}
+
+h1
+{
+	color: #0C6000;
+	font-size: 2.25em;
+	letter-spacing: -1px;
+}
+
+h2
+{
+	color: #4D1300;
+	font-size: 1.75em;
+	letter-spacing: -1px;
+}
+
+ul
+{
+	margin: 0 0 1em 1em;
+	padding: 0;
+	list-style: none;
+}
+
+ul.nobullets
+{
+	margin: 0 0 1em 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.nobullets li
+{
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+li { line-height: 1.5em; }
+
+li ul
+{
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+ul li
+{
+	display: block;
+	background: url(../images/bullet-red.gif) 0 5px no-repeat;
+	padding: 0 0 0.5em 1.25em;
+}
+
+.alt { display: none; }
+
+.clr { clear: both; }
+
+.col { float: left; }
+
+.boxInfo
+{
+	background: #C4CFA0 url(../images/bkgd-grad-dk-green.gif) repeat-x;
+	padding: 18px 20px;
+	color: #0C6000;
+	margin: 0;
+}
+
+.boxInfo li { color: #0C6000; }
+
+.boxInfo ol
+{
+	margin-left: 15px;
+	padding-left: 10px;
+}
+
+.imgLt
+{
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.imgRt
+{
+	float: right;
+	margin: 0 0 2em 1em;
+}
+
+div.imgRt { width: 266px; }
+
+div.imgRt img { margin-bottom: 10px; }
+
+#wrapper,
+#header,
+#footer,
+#main
+{
+	margin: 0 auto;
+	width: 760px;
+}
+
+#header
+{
+	background: #4D1300 url(../images/header-bkgd.jpg) no-repeat;
+	position: relative;
+	height: 105px;
+}
+
+#header img
+{
+	position: absolute;
+	left: 257px;
+	top: 7px;
+	border: 0;
+}
+
+#nav
+{
+	margin: 0 0 2.5em 0;
+	height: 16px;
+	border-bottom: solid #D6C5B4 1px;
+	padding-bottom: 5px;
+}
+
+#nav ul
+{
+	list-style: none;
+	margin: 0;
+}
+
+#nav li li a.sf-with-ul {
+	background-image:url(../images/arrow.gif);
+	background-position:right center;
+	background-repeat:no-repeat;
+}
+
+.home #nav ul { margin-top: 2em; }
+
+#nav li
+{
+	display: inline;
+	padding: 0;
+	background: none !important;
+	width: auto;
+}
+
+#nav li a
+{
+	display: block;
+	height: 16px;
+}
+
+#nav li li a {
+	height: auto;
+	padding: 3px 0;
+	line-height: 1.2em;
+}
+
+#nav li
+{
+	margin-left: 16px;
+}
+
+#nav li.first, #nav li li
+{
+	margin-left: 0;
+}
+
+#nav li#contact a { margin-right: 0; }
+
+#nav ul ul {
+	background: #FFFFCC;
+	border: solid 1px #cc0000;
+	padding: 10px;
+}
+
+#nav ul ul, #nav ul ul a, #nav li li {
+	width: 160px;
+}
+
+#nav li ul ul { /* third-and-above-level lists */
+	margin: -2.2em 0 0 160px;
+}
+
+a#furnishings
+{
+	background: url(../images/nav-home-furnishings.gif) no-repeat;
+	width: 120px;
+}
+#furnishings li li a 
+{
+	background: none !important;
+	width: auto;
+}
+
+ a#home
+{
+	background: url(../images/nav-home.gif) no-repeat;
+	width: 50px;
+}
+
+ a#decorating
+{
+	background: url(../images/nav-decorating-design.gif) no-repeat;
+	width: 137px;
+}
+
+ a#accessories
+{
+	background: url(../images/nav-gifts-accessories.gif) no-repeat;
+	width: 133px;
+}
+
+ a#contact
+{
+	background: url(../images/nav-contact-us.gif) no-repeat;
+	width: 78px;
+}
+
+#main { background: #fff url(../images/page-border-bkgd.jpg) repeat-y; }
+
+#main h1#forThose
+{
+	background: url(../images/header-for-those-home.jpg) no-repeat;
+	height: 230px;
+	width: 673px;
+	margin: 0 auto;
+}
+
+#main h2#forThose
+{
+	background: url(../images/heading-providing.gif) no-repeat;
+	height: 115px;
+	width: 710px;
+	margin: 0 auto;
+}
+
+#content
+{
+	margin: 0 25px;
+	padding: 80px 59px 20px 59px;
+	width: 592px;
+	background: #fff url(../images/bkgd-grad-cream.gif) bottom repeat-x;
+}
+
+.home #content { padding-top: 0; }
+
+.twoCol { }
+
+.twoCol .col { margin-left: 1em; }
+
+.twoCol .col img { border: 1px solid #874223; margin-bottom: 1em;}
+
+.twoCol .col.first { margin-left: 0; }
+
+#footer
+{
+	font-size: 10px;
+	color: #EFE7C3;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+	background: url(../images/page-border-btm.jpg) no-repeat top;
+	padding: 4em 0 0 0;
+}
+
+#footer,
+#footer li,
+#footer p
+{
+	font-size: 10px;
+	color: #EFE7C3;
+}
+
+#footer li { background: none; }
+
+#footer ul { list-style: none; }
+
+#footer strong { font-size: 12px; }
+
+#footer a { color: #EFE7C3; }
+
+#footer a:hover { color: #fff; }
+
+#footer p { margin: 0 0 5px 0; }
+
+/* Home Styles */
+
+#homeContent { padding: 0 43px 1.5em 43px; }
+
+#homeContent .boxInfo .col
+{
+	width: 285px;
+	margin: 0 30px 0 0;
+}
+
+#homeContent .boxInfo h2
+{
+	color: #fff;
+	font-size: 32px;
+	letter-spacing: -3px;
+	margin: 0 0 0.5em 0;
+}
+
+#homeContent #intro h2#welcome
+{
+	position: absolute;
+	top: -33px;
+	left: 1px;
+	background: url(../images/head-welcome.gif) no-repeat;
+	height: 96px;
+	width: 100%;
+	border-bottom: solid #CDDDC6 1px;
+	z-index: 65;
+}
+
+#homeContent #intro blockquote
+{
+	position: absolute;
+	top: 75px;
+	left: 18px;
+	margin: 0;
+	width: 167px;
+	height: 207px;
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+.author
+{
+	display: block;
+	text-align: right;
+}
+
+#homeContent #intro
+{
+	position: relative;
+	height: 375px;
+}
+
+#homeContent #intro #nav
+{
+	position: absolute;
+	top: -223px;
+	left: 595px;
+	margin: 0;
+	height: auto;
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+#homeContent #intro #homeNav h2
+{
+	position: static;
+	width: 130px;
+	height: 50px;
+	margin: 0 0 10px -10px;
+}
+
+#homeContent #intro #homeNav h2 a
+{
+	width: 130px;
+	height: 50px;
+	display: block;
+}
+
+#homeNav #homeFurnishings h2 a { background: url(../images/head-home-furnishings.gif) no-repeat; }
+
+#homeNav #decoratingDesign h2 a { background: url(../images/head-decorating-design.gif) no-repeat; }
+
+#homeNav #giftsAccessories h2 a { background: url(../images/head-gifts-accessories.gif) no-repeat; }
+
+#homeNav
+{
+	width: 450px;
+	margin: 0;
+	position: absolute;
+	left: 226px;
+	top: 13px;
+	z-index: 75;
+}
+
+#homeNav .col
+{
+	width: 130px;
+	margin: 0 20px 0 0;
+}
+
+#homeNav p
+{
+	font-size: 11px;
+	line-height: 1.25em;
+}
+
+#homeNav img
+{
+	display: block;
+	margin: 0 0 5px 0;
+	border: solid #601700 1px;
+}
+
+#homeFurnishings h2 { background: url(../images/head-home-furnishings.gif) no-repeat; }
+
+#decoratingDesign h2 { background: url(../images/head-decorating-design.gif) no-repeat; }
+
+#giftsAccessories h2 { background: url(../images/head-gifts-accessories.gif) no-repeat; }
+
+#homeContent .boxInfo #commitment.col
+{
+	width: 306px;
+	margin-right: 0;
+}
+
+#secLinks
+{
+	background: #D3D7AC url(../images/bkgd-grad-green.gif) 0 0 repeat-x;
+	margin: 0 2em 2em 0;
+	width: 148px;
+	border: solid #0C6000 1px;
+	padding: 14px;
+	float: left;
+}
+
+#secLinks.twoCol
+{
+	width: 236px;
+	margin-right: 0;
+}
+
+#secLinks a
+{
+	color: #0C6000;
+	font-size: 0.95em;
+}
+
+#secLinks ul { margin-left: 3px; }
+
+#secLinks ul li
+{
+	display: block;
+	background: url(../images/bullet-green.gif) 0 5px no-repeat;
+	padding: 0 0 0 8px;
+	line-height: normal;
+	margin-bottom: 4px;
+}
+
+#secLinks h2
+{
+	color: #0C6000;
+	margin: 0 0 0.5em 0;
+	letter-spacing: -1px;
+}
+
+.addImages
+{
+	float: left;
+	width: 325px;
+}
+
+.addImages img
+{
+	border: 1px solid #874223;
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+.mainImg { border: 1px solid #874223; }
+
+#secLinks .col
+{
+	width: 116px;
+	margin: 0 4px 0 0;
+}
+
+#secLinks .first { width: 100px; }
+
+.tagline
+{
+	text-align: center;
+	font-size: 14px;
+	color: #0C6000;
+	margin: 0 0 1em 0;
+}
+
+.introQuote p
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+	font-weight: normal;
+	font-style: italic;
+	color: #9B1D21;
+}
